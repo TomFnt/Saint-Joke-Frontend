@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Saint Joke</title>
+  <script src="assets/js/app.js" defer ></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<h1> Bienvenue sur Saint-Joke, une collaboration entre Saint Jo et Carambar </h1>
+<div class="card">
+    <h3 class="cardTitle"> Choisissez un numéro, on vous donnera une blague : </h3>
+    <form id="form">
+        <label> Choisissez un nombre : </label>
+        <input list="datalist" class="jokeId" type="search" id="jokeId" name="request">
+        <datalist id="datalist">
+        </datalist>
+    </form>
+    <div id="selectedJoke" class="jokeZone">
+
+    </div>
+</div>
+
+<div class="card">
+    <h3 class="card-title"> Blague aléatoire : </h3>
+    <button class="btn" id="randomBtn">Générer une blague aléatoire </button>
+    <div id="randomJoke" class="joke">
+
+    </div>
+</div>
+
+<a class="btn" href="listJoke.html"> Voir toutes les blagues </a>
+
+</body>
+</html>
